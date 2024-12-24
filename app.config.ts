@@ -16,16 +16,4 @@ export default defineAppConfig({
     }
   }
 })
-    },
-    main: {
-      padded: true,
-      fluid: true
-    },
-    header: {
-      logo: true,
-      showLinkIcon: true,
-      exclude: [],
-      fluid: true
-    }
-  }
-})
+
