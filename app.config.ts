@@ -7,6 +7,15 @@ export default defineAppConfig({
       level: 0,
       collapsed: false,
       exclude: []
+     footer: {
+      credits: {
+        icon: '',                       // Deja vacío para no mostrar ícono
+        text: 'Desarrollado por Jorge', // Cambia el texto
+        href: ''                        // Puedes dejarlo vacío o poner una URL propia
+      }
+    }
+  }
+})
     },
     main: {
       padded: true,
